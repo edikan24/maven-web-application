@@ -5,7 +5,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>RondusTechnologies- Home Page</title>
-<link href="images/mithunlogo.jpg" rel="icon">
+<link href="images/RondusTech Logo.jpeg" rel="icon">
 </head>
 </head>
 <body>
@@ -31,7 +31,7 @@ out.println("Server Host Name :: "+inetAddress.getHostName());
 <hr>
 <div style="text-align: center;">
 	<span>
-		<img src="images/mithunlogo.jpg" alt="" width="100">
+		<img src="images/RondusTech Logo.jpeg" alt="" width="100">
 	</span>
 	<span style="font-weight: bold;">
 		Rondus Technologies, 
@@ -45,7 +45,7 @@ out.println("Server Host Name :: "+inetAddress.getHostName());
 	<p> Service : <a href="services/employee/getEmployeeDetails">Get Employee Details </p>
 <hr>
 <hr>
-<p align=center>Mithun Technologies - Consultant, Training, Development Center.</p>
+<p align=center>Rondus Technologies - Consultant, Training, Development Center.</p>
 <p align=center><small>Copyrights 2022 by <a href="http://rondustech.com/">Rondus Technologies, Auburn</a> </small></p>
 
 </body>
