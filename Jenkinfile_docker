@@ -7,7 +7,7 @@ pipeline{
     stage('GitClone'){
       steps{
         echo "cloning the lastest applications version"
-        git "https://github.com/LandmakTechnology/maven-web-application"
+        git "https://github.com/itoroukpe/maven-web-application"
       }
     }
       stage('Test+Build'){
@@ -34,8 +34,8 @@ pipeline{
       stage('predeployment'){
       steps{
         sh "echo creating docker image"
-        sh "docker build -t mylandmarktech/maven-web-app . "
-        sh "docker push mylandmarktech/maven-web-app"
+        sh "docker build -t rondustech/maven-web-app . "
+        sh "docker push rondustech/maven-web-app"
       }
     }
     stage('UnDeploy'){
@@ -47,7 +47,7 @@ pipeline{
     stage('deployment'){
       steps{
         sh "echo application ready for deployment"
-        sh "docker run -d -p 8000:8080 --name webapp mylandmarktech/maven-web-app"
+        sh "docker run -d -p 8000:8080 --name webapp rondustech/maven-web-app"
       }
     }
   stage('emailNotification'){
