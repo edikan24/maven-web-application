@@ -98,13 +98,13 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>Rondus Technologies Releases Nexus Repository</name>
-	      <url>http://18.233.160.201:8081/repository/Chase-release/</url>
+	      <url>http://34.212.180.80:8081/repository/chase-bank-release/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Rondus Technologies Snapshot Nexus Repository </name>
-	      <url>http://18.233.160.201:8081/repository/chase-snapshot/</url>
+	      <url>http://34.212.180.80:8081/repository/chase-bank-snapshot//</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
