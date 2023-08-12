@@ -10,7 +10,7 @@
 </head>
 <body>
 <h1 align="center">Welcome to Rondus Technologies. Auburn, WA, USA </h1>
-<h1 align="center"> Rondus Technologies- Great Training center for DevOps with AWS in Auburn WA and also for Job Assistance, Job Support and shadowing. Teaching Real Time scenerios</h1>
+<h1 align="center"> Rondus Technologies- Great Training center for DevOps with AWS located in Auburn WA and also for Job Assistance, Job Support and shadowing. Teaching Real Time scenerios</h1>
 <hr>
 <br>
 	<h1><h3> Server Side IP Address </h3><br>
