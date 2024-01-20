@@ -98,13 +98,13 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>Rondus Technologies Releases Nexus Repository</name>
-	      <url>http://54.200.67.39:8081/repository/rondustech-releases/</url>
+	      <url>http://35.91.154.13:8081/repository/rondustech-releases/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Rondus Technologies Snapshot Nexus Repository </name>
-	      <url>http://54.200.67.39:8081/repository/rondustech-snapshot/</url>
+	      <url>http://35.91.154.13:8081/repository/rondustech-snapshot/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
