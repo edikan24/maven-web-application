@@ -9,7 +9,7 @@
 </head>
 </head>
 <body>
-<h1 align="center">Welcome to Rondus Technologies. Auburn, WA, USA </h1>
+<h1 align="center">Welcome to Rondus Technologies located in Auburn, WA, USA </h1>
 <h1 align="center"> Rondus Technologies- Great Training center for DevOps with AWS located in Auburn WA, USA and also for Job Assistance, Job Support and shadowing. Teaching Real Time scenerios and practical handson experience</h1>
 <hr>
 <br>
