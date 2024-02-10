@@ -1,4 +1,6 @@
-```docker
+Below is an example Jenkinsfile that demonstrates how to use Git, Maven, SonarQube, Nexus, and Tomcat as Docker images in a Jenkins pipeline:
+
+```groovy
 pipeline {
     agent any
 
@@ -70,3 +72,14 @@ pipeline {
     }
 }
 ```
+
+This Jenkinsfile defines a pipeline with the following stages:
+
+1. **Checkout**: Clones the repository from Git.
+2. **Build**: Builds the project using Maven inside a Maven Docker container.
+3. **SonarQube Analysis**: Performs static code analysis using SonarQube.
+4. **Deploy to Nexus**: Deploys the built artifacts to Nexus repository manager.
+5. **Deploy to Tomcat**: Deploys the built WAR file to Tomcat.
+6. **Cleanup**: Cleans up the workspace by running `mvn clean`.
+
+Ensure you have the required Docker images (`maven`, `sonarqube`, `nexus`, `tomcat`) available in your Docker environment. You may need to configure credentials for Nexus if authentication is required for deployment. Additionally, adjust the URLs and ports in the `environment` block according to your Docker setup.
