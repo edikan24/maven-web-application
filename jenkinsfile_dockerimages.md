@@ -1,3 +1,4 @@
+```docker
 pipeline {
     agent any
 
@@ -68,3 +69,4 @@ pipeline {
         }
     }
 }
+```
