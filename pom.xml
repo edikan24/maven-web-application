@@ -98,13 +98,13 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>Rondus Technologies Releases Nexus Repository</name>
-	      <url>http://54.214.61.196:8081/repository/Boeing_releases/</url>
+	      <url>http://54.213.23.88:8081/repository/Walmart-Release/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Rondus Technologies Snapshot Nexus Repository </name>
-	      <url>http://54.214.61.196:8081/repository/Boeing-Snapshot/</url>
+	      <url>http://54.213.23.88:8081/repository/Walmart-Snapshot//</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
