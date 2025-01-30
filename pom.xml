@@ -21,7 +21,7 @@
 		<spring.version>5.1.2.RELEASE</spring.version>
 		<junit.version>4.11</junit.version>
 		<log4j.version>1.2.17</log4j.version>
-		<sonar.host.url>http://35.164.23.107:9000/</sonar.host.url>
+		<sonar.host.url>http://35.155.202.167:9000/</sonar.host.url>
 		<sonar.login>admin</sonar.login>
 		<sonar.password>admin123</sonar.password> 
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -98,13 +98,13 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>Rondus Technologies Releases Nexus Repository</name>
-	      <url>http://54.213.23.88:8081/repository/Walmart-Release/</url>
+	      <url>http://34.215.91.2:8081/repository/Boeing_releases/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Rondus Technologies Snapshot Nexus Repository </name>
-	      <url>http://54.213.23.88:8081/repository/Walmart-Snapshot//</url>
+	      <url>http://34.215.91.2:8081/repository/Boeing-Snapshot/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
