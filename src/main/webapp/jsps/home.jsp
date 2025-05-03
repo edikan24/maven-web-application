@@ -41,7 +41,7 @@
 </head>
 <body>
 <div id="header">
-    <h1>Welcome to Rondus Technologies, Auburn, Washington, USA</h1>
+    <h1>Welcome to Rondus Technologies, Auburn, WA, USA</h1>
     <h1>Rondus Technologies - Wonderful Training center for DevOps with AWS located in Auburn WA, USA and also for Job Assistance, Job Support, and shadowing. Teaching Real-Time scenarios and practical hands-on experience</h1>
     <hr>
     <h1><h3>Server Side IP Address</h3></h1>
